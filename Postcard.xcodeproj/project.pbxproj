@@ -13,6 +13,8 @@
 		242AA3B819BFEAF700AB0B01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242AA3B719BFEAF700AB0B01 /* Images.xcassets */; };
 		242AA3BB19BFEAF700AB0B01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242AA3B919BFEAF700AB0B01 /* LaunchScreen.xib */; };
 		242AA3C719BFEAF700AB0B01 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AA3C619BFEAF700AB0B01 /* PostcardTests.swift */; };
+		2430F0C819C126D3004CC4C4 /* Space Needle 2__OTIS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2430F0C719C126D3004CC4C4 /* Space Needle 2__OTIS.jpg */; };
+		2430F0CA19C12E89004CC4C4 /* 6662395-mongolia-circa-1982-postage-stamp-shows-vintage-bicycle-circa-1982.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2430F0C919C12E89004CC4C4 /* 6662395-mongolia-circa-1982-postage-stamp-shows-vintage-bicycle-circa-1982.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		242AA3C019BFEAF700AB0B01 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		242AA3C519BFEAF700AB0B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		242AA3C619BFEAF700AB0B01 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		2430F0C719C126D3004CC4C4 /* Space Needle 2__OTIS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Space Needle 2__OTIS.jpg"; sourceTree = "<group>"; };
+		2430F0C919C12E89004CC4C4 /* 6662395-mongolia-circa-1982-postage-stamp-shows-vintage-bicycle-circa-1982.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6662395-mongolia-circa-1982-postage-stamp-shows-vintage-bicycle-circa-1982.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		242AA3AE19BFEAF700AB0B01 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2430F0C919C12E89004CC4C4 /* 6662395-mongolia-circa-1982-postage-stamp-shows-vintage-bicycle-circa-1982.jpg */,
+				2430F0C719C126D3004CC4C4 /* Space Needle 2__OTIS.jpg */,
 				242AA3AF19BFEAF700AB0B01 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				242AA3B619BFEAF700AB0B01 /* Main.storyboard in Resources */,
+				2430F0CA19C12E89004CC4C4 /* 6662395-mongolia-circa-1982-postage-stamp-shows-vintage-bicycle-circa-1982.jpg in Resources */,
 				242AA3BB19BFEAF700AB0B01 /* LaunchScreen.xib in Resources */,
 				242AA3B819BFEAF700AB0B01 /* Images.xcassets in Resources */,
+				2430F0C819C126D3004CC4C4 /* Space Needle 2__OTIS.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +347,7 @@
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +358,7 @@
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +415,7 @@
 				242AA3CC19BFEAF700AB0B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		242AA3CD19BFEAF700AB0B01 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				242AA3CF19BFEAF700AB0B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
